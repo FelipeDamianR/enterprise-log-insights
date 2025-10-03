@@ -49,8 +49,3 @@ Se identificaron concentraciones de errores críticos, patrones de fallos por pa
 - Gabriela Marissa Mosquera  
 - Humberto Mondragón García  
 ---
-
-## 👥 Autores
-- Felipe de Jesús Damián Rodríguez  
-- Gabriela Marissa Mosquera  
-- Humberto Mondragón García  
