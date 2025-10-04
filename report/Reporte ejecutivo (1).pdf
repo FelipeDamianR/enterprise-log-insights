@@ -1,0 +1,40 @@
+# 📊 Log Analysis Report
+
+This directory contains the main reports of the project:
+
+- **Technical Report (PDF):** detailed explanation of data processing, code implementation, and results.  
+- **Executive Report (PDF):** high-level summary of findings and recommendations for the company.  
+
+---
+
+## Key Findings
+
+1. **Critical Errors Concentrated in Few Users**  
+   - Only 5 users generated over 22,000 critical errors.  
+   - A single user was responsible for more than 16,000 repeated failures.  
+
+2. **Errors by Country**  
+   - 🇲🇽 Mexico → business logic failures.  
+   - 🇬🇧 United Kingdom → interoperability and data structure errors.  
+   - 🇺🇸 United States → interface and UX issues.  
+   - While Mexico had more total errors, the U.S. showed the **highest proportion of severe errors**.  
+
+3. **Error Diversity per User**  
+   - Some users generated up to **68 different types of errors**.  
+   - Suggests misconfigurations, improper use, or environment-specific issues.  
+
+4. **Possible Anomalies / Automation**  
+   - One user accumulated **over 1 million records**, with repetitive operations at night.  
+   - Strong indication of automated or unsupervised scripts.  
+
+5. **Rarely Used Methods**  
+   - Certain methods were executed thousands of times but by very few users.  
+   - Requires **security review** to rule out misuse or unauthorized testing.  
+
+---
+
+## Business Impact
+
+- Helps **focus corrective actions** on specific users instead of broad system changes.  
+- Detects **security and maintenance risks** from undocumented automation.  
+- Provides a **geographic and role-based view** to prioritize technical support and audits.  
