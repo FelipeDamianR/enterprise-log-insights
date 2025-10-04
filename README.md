@@ -7,7 +7,7 @@ Se identificaron concentraciones de errores críticos, patrones de fallos por pa
 
 ## ⚙️ Tecnologías usadas
 - Python 3  
-- Librerías: pandas, numpy, matplotlib, seaborn  
+- Librerías: pandas, numpy, matplotlib, seaborn, os, ast, json, re  
 - Archivos Parquet para datos
 
 ---
